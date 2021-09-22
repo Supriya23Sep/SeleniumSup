@@ -27,7 +27,8 @@ public class Gmail {
 		//explicit wait
 		WebDriverWait ewait = new WebDriverWait(driver,20);
 		ewait.until(ExpectedConditions.elementToBeClickable(By.linkText("Help")));
-				
+		
+		
 		driver.findElement(By.linkText("Help")).click();
 		
 		//driver.switchTo().window("Window ID");
